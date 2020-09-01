@@ -1,6 +1,3 @@
-const namaBuah = document.querySelector("#buah");
-const namaHewan = document.querySelector("#hewan");
-
 export let buah = [
   {
     nama: "Apple",
@@ -54,15 +51,19 @@ export let buah = [
 
 export let hewan = [
   {
-    nama: "kucing",
-    warna: "hijau",
+    nama: "kucing Turkish Angora",
+    asalNegara: "Turkey",
   },
   {
-    nama: "anjing",
-    warna: "kuning",
+    nama: "Anjing German Shepherd",
+    asalNegara: "Jerman",
   },
   {
-    nama: "Kelinci",
-    warna: "ungu",
+    nama: "Netherland Dwarf rabbit",
+    asalNegara: "Belanda",
+  },
+  {
+    nama: "Cendrawasih Bird",
+    asalNegara: "Indonesia",
   },
 ];
